@@ -2,7 +2,7 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # 每 30 分钟运行一次
+    - cron: "*/180 * * * *" # 每 180 分钟运行一次
   workflow_dispatch:
 
 # 添加权限设置
@@ -61,3 +61,14 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+      - name: Prepare GitHub Pages folder
+        run: |
+          mkdir -p gh-pages
+          cp output/*/html/当前榜单汇总.html gh-pages/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./gh-pages
+          publish_branch: gh-pages
