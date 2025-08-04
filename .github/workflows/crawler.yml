@@ -61,10 +61,23 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+
       - name: Prepare GitHub Pages folder
         run: |
           mkdir -p gh-pages
-          cp output/*/html/当日汇总.html gh-pages/index.html
+          echo "📂 当前目录结构如下："
+          ls -R output || echo "❌ output 目录不存在"
+      
+          echo "🔍 正在查找最新 HTML 文件..."
+          latest_file=$(ls -t output/*/html/*.html | head -n 1)
+      
+          if [ -z "$latest_file" ]; then
+            echo "❌ 没有找到任何 HTML 文件，可能爬虫未生成输出，跳过部署"
+            exit 1
+          fi
+      
+          echo "📄 找到最新文件: $latest_file"
+          cp "$latest_file" gh-pages/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
