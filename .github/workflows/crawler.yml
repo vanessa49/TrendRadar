@@ -64,7 +64,7 @@ jobs:
       - name: Prepare GitHub Pages folder
         run: |
           mkdir -p gh-pages
-          cp output/*/html/当前榜单汇总.html gh-pages/index.html
+          cp output/*/html/当前汇总.html gh-pages/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
