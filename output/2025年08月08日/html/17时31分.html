@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 57</p><p>生成时间: 2025-08-08 17:31:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">10</td>
+                <td class="percentage">17.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7536113970626396201/" target="_blank" class="news-link">国防部回应巴基斯坦列装中国直-10ME</a> [9] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E5%AD%A9%E8%B8%A9%E7%A9%BA%E7%8E%BB%E7%92%83%E6%A0%88%E9%81%93%E6%8C%82%E5%8D%8A%E7%A9%BA+%E6%99%AF%E5%8C%BA%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">小孩踩空玻璃栈道挂半空 景区回应</a> [13] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%91%A3%E6%98%8E%E7%8F%A0%E5%9B%9E%E5%BA%94%E7%8E%AB%E7%91%B0%E7%A9%BA%E8%B0%83%E4%BA%89%E8%AE%AE" target="_blank" class="news-link">董明珠回应玫瑰空调争议</a> [16] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31337021" target="_blank" class="news-link">外交部回应菲律宾领导人涉台言论：不要在中方核心利益问题上玩火</a> [20] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535259971534143498/" target="_blank" class="news-link">外交部回应菲领导人涉台言论</a> [22] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%8E%E5%AB%A3%E8%BF%91%E7%85%A7%E6%9B%9D%E5%85%89+%E6%B0%94%E8%B4%A8%E5%86%B7%E8%89%B3%E5%A6%82%E7%BF%BB%E7%89%88%E7%8E%8B%E8%8F%B2" target="_blank" class="news-link">李嫣近照曝光 气质冷艳如翻版王菲</a> [22] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2196437" target="_blank" class="news-link">李嫣19岁近照曝光</a> [23] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%BA%BF%E4%B8%87%E5%AF%8C%E8%B1%AA%E5%9B%9E%E5%BA%94%E4%B8%8E17%E5%B2%81%E5%84%BF%E5%AD%90%E7%BD%AE%E6%8D%A2%E8%A1%80%E6%B5%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D25%26stream_entry_id%3D31%26q%3D%2523%25E4%25BA%25BF%25E4%25B8%2587%25E5%25AF%258C%25E8%25B1%25AA%25E5%259B%259E%25E5%25BA%2594%25E4%25B8%258E17%25E5%25B2%2581%25E5%2584%25BF%25E5%25AD%2590%25E7%25BD%25AE%25E6%258D%25A2%25E8%25A1%2580%25E6%25B5%2586%2523%26realpos%3D25%26filter_type%3Drealtimehot%26pos%3D26%26c_type%3D31%26flag%3D1%26cate%3D5001%26lcate%3D5001%26dgr%3D0%26display_time%3D1754645433%26pre_seqid%3D175464543324492864929102" target="_blank" class="news-link">亿万富豪回应与17岁儿子置换血浆</a> [25] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7536077346844180519/" target="_blank" class="news-link">福建舰入列进入攻坚时刻？国防部回应</a> [27] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E9%98%B2%E9%83%A8%E5%9B%9E%E5%BA%94%E3%80%8A%E5%8D%97%E4%BA%AC%E7%85%A7%E7%9B%B8%E9%A6%86%E3%80%8B%E7%AD%89%E7%94%B5%E5%BD%B1%E4%B8%8A%E6%98%A0" target="_blank" class="news-link">国防部回应《南京照相馆》等电影上映</a> [29] <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E7%99%8C%E7%97%87%E7%AA%81%E7%A0%B4%E6%80%A7%E6%8A%80%E6%9C%AF%E5%90%91%E4%B8%AD%E5%9B%BD%E5%BC%80%E6%94%BE&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D7%26stream_entry_id%3D31%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E7%2599%258C%25E7%2597%2587%25E7%25AA%2581%25E7%25A0%25B4%25E6%2580%25A7%25E6%258A%2580%25E6%259C%25AF%25E5%2590%2591%25E4%25B8%25AD%25E5%259B%25BD%25E5%25BC%2580%25E6%2594%25BE%26realpos%3D7%26filter_type%3Drealtimehot%26pos%3D8%26c_type%3D31%26flag%3D1%26cate%3D5001%26lcate%3D5001%26dgr%3D0%26display_time%3D1754645433%26pre_seqid%3D175464543324492864929102" target="_blank" class="news-link">日本癌症突破性技术向中国开放</a> [7] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E6%98%AF%E4%B8%AD%E5%9B%BD%E7%9A%84%E4%B8%80%E4%B8%AA%E7%9C%81%E5%93%AA%E6%9D%A5%E5%9B%BD%E9%98%B2%E9%A2%84%E7%AE%97" target="_blank" class="news-link">台湾是中国的一个省哪来国防预算</a> [9] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E4%B8%AD%E5%9B%BD%E6%9D%82%E4%BA%A4%E8%87%AA%E8%A1%8C%E8%BD%A6%E4%B9%8B%E7%88%B6&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D24%26stream_entry_id%3D31%26q%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259D%2582%25E4%25BA%25A4%25E8%2587%25AA%25E8%25A1%258C%25E8%25BD%25A6%25E4%25B9%258B%25E7%2588%25B6%26realpos%3D24%26filter_type%3Drealtimehot%26pos%3D25%26c_type%3D31%26flag%3D1%26cate%3D5001%26lcate%3D5001%26dgr%3D0%26display_time%3D1754645433%26pre_seqid%3D175464543324492864929102" target="_blank" class="news-link">中国杂交自行车之父</a> [24] <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">看病难 医保 挂号 陪诊 辞职 跳槽 过度治疗 白血病 罕见病 药价 报销 医保目录 理赔 拒赔 医疗纠纷 学区房 考研 高考 教育焦虑 培训机构 校外辅导 教师编制 教师辞职 辅导班 名校 内卷 就业难 35岁危机 试用期 实习生 裁员 优化 离职 裸辞 打工人 劳务派遣 外包 搬砖 脱发 失眠 抑郁 emo 精神内耗 陪伴 社恐 孤独 治愈 共鸣 心理咨询 心理辅导 婚姻焦虑 育儿焦虑 二胎 三胎 托育 老人跌倒 养老院 看护 养老金 独居老人 高房价 租金上涨 违约金 天价中介费 社区封闭 强制消费 平台割韭菜 维权 举报 道歉 热搜 翻车 封杀 网暴 公开信 下架 社交恐惧 情绪价值</td>
+                <td class="count">1</td>
+                <td class="percentage">1.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8leW0TYWGQV" target="_blank" class="news-link">广岛原子弹爆炸亲历者：日本没真正地谢罪，应向中国等国真诚道歉</a> [6] <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2110198" target="_blank" class="news-link">【每日收评】三大指数均小幅收跌，AI应用方向全线走弱，新疆本地股午后爆发</a> [10] <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
