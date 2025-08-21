@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-08-21 18:24:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2121760" target="_blank" class="news-link">美国可能对委内瑞拉动武 外交部表态</a> [11] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8m0CbltQpC9" target="_blank" class="news-link">华人数学家张益唐谈回国原因：美国政治氛围太差，很多人都已回来</a> [12] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7540688030760747018/" target="_blank" class="news-link">美国向拉美派重兵目的何在</a> [20] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%83%B5%E5%B0%B8%E6%9D%BE%E9%BC%A0%E8%A7%A6%E6%89%8B%E5%85%94+%E7%BE%8E%E5%9B%BD%E5%8F%88%E5%8F%91%E7%8E%B0%E5%8F%98%E5%BC%82%E9%B9%BF" target="_blank" class="news-link">僵尸松鼠触手兔 美国又发现变异鹿</a> [28] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">3</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31436399" target="_blank" class="news-link">当地回应“网传老人未去世被要求火化”：系上门宣传殡葬改革政策被村民误会</a> [7] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E7%BD%91%E7%BA%A2%E5%A8%B63%E4%B8%AA%E6%AE%8B%E9%9A%9C%E8%80%81%E5%A9%86%EF%BC%9F%E5%B9%B3%E5%8F%B0%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">男网红娶3个残障老婆？平台回应</a> [9] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%88%B6%E4%BA%B2%E6%AF%92%E6%9D%80%E5%84%BF%E5%A5%B3%E6%A1%88%E7%94%B7%E5%AD%90%E5%A0%82%E5%93%A5%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">父亲毒杀儿女案男子堂哥发声</a> [29] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2121646" target="_blank" class="news-link">DeepSeek最新透露：是针对即将发布的下一代国产芯片设计</a> [6] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%A6%E8%AE%A4%E6%94%BE%E5%BC%83%E6%88%90%E7%AB%8B%E7%BE%8E%E5%9B%BD%E5%85%9A" target="_blank" class="news-link">马斯克否认放弃成立美国党</a> [23] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1941792476722591107" target="_blank" class="news-link">MIT 报告称高达 95% 的生成式 AI 投资回报为零，AI 投资是否已过热？</a> [17] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
