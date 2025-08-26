@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2025-08-26 18:24:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">8</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542442568756428836/" target="_blank" class="news-link">中方回应泽连斯基称收中国领导人贺信</a> [7] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2126125" target="_blank" class="news-link">日本政府呼吁亚欧各国不要参加九三阅兵，外交部回应</a> [10] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8m8WKiUG87R" target="_blank" class="news-link">日本男子在台北举五星红旗被台当局驱逐出境，当事人发声</a> [10] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E9%85%92%E7%AA%9D%E5%9B%9E%E5%BA%94%E6%9A%91%E5%81%87%E8%B5%9A%E5%A5%B6%E7%B2%89%E9%92%B1&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26q%3D%25E5%25B0%258F%25E9%2585%2592%25E7%25AA%259D%25E5%259B%259E%25E5%25BA%2594%25E6%259A%2591%25E5%2581%2587%25E8%25B5%259A%25E5%25A5%25B6%25E7%25B2%2589%25E9%2592%25B1%26dgr%3D0%26band_rank%3D13%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26pos%3D14%26realpos%3D13%26stream_entry_id%3D31%26display_time%3D1756203542%26pre_seqid%3D1756203542501054379436" target="_blank" class="news-link">小酒窝回应暑假赚奶粉钱</a> [13] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2215820" target="_blank" class="news-link">动物园回应老虎咬死流浪猫</a> [16] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%B1%E7%A8%80%E5%9C%9F%E5%85%B3%E7%A8%8E%E5%A8%81%E8%83%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26q%3D%2523%25E4%25B8%25AD%25E6%2596%25B9%25E5%259B%259E%25E5%25BA%2594%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE%25E5%25B0%25B1%25E7%25A8%2580%25E5%259C%259F%25E5%2585%25B3%25E7%25A8%258E%25E5%25A8%2581%25E8%2583%2581%2523%26dgr%3D0%26band_rank%3D22%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26pos%3D23%26realpos%3D22%26stream_entry_id%3D31%26display_time%3D1756203542%26pre_seqid%3D1756203542501054379436" target="_blank" class="news-link">中方回应特朗普就稀土关税威胁</a> [22] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E7%9A%84%E6%8A%97%E6%88%98%E8%83%9C%E5%88%A9%E7%BA%AA%E5%BF%B5%E8%B4%9F%E9%9D%A2%E8%A8%80%E8%AE%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D0%26q%3D%2523%25E5%25A4%2596%25E4%25BA%25A4%25E9%2583%25A8%25E5%259B%259E%25E5%25BA%2594%25E6%2597%25A5%25E6%259C%25AC%25E7%259A%2584%25E6%258A%2597%25E6%2588%2598%25E8%2583%259C%25E5%2588%25A9%25E7%25BA%25AA%25E5%25BF%25B5%25E8%25B4%259F%25E9%259D%25A2%25E8%25A8%2580%25E8%25AE%25BA%2523%26dgr%3D0%26band_rank%3D23%26c_type%3D31%26cate%3D5001%26filter_type%3Drealtimehot%26pos%3D24%26realpos%3D23%26stream_entry_id%3D31%26display_time%3D1756203542%26pre_seqid%3D1756203542501054379436" target="_blank" class="news-link">外交部回应日本的抗战胜利纪念负面言论</a> [23] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542791712629096475/" target="_blank" class="news-link">外交部回应日本抗议中方东海油气开发</a> [24] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542695492677943346/" target="_blank" class="news-link">特朗普为何又示好中国留学生</a> [12] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542696893692968986/" target="_blank" class="news-link">中国地下700米有了个全球第一</a> [14] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31471471" target="_blank" class="news-link">日本呼吁各国不要参加中国抗战胜利纪念活动及阅兵，外交部：要求日方澄清</a> [19] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542819970644708915/" target="_blank" class="news-link">专家：美拿关税逼中国让步是虚张声势</a> [28] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">看病难 医保 挂号 陪诊 辞职 跳槽 过度治疗 白血病 罕见病 药价 报销 医保目录 理赔 拒赔 医疗纠纷 学区房 考研 高考 教育焦虑 培训机构 校外辅导 教师编制 教师辞职 辅导班 名校 内卷 就业难 35岁危机 试用期 实习生 裁员 优化 离职 裸辞 打工人 劳务派遣 外包 搬砖 脱发 失眠 抑郁 emo 精神内耗 陪伴 社恐 孤独 治愈 共鸣 心理咨询 心理辅导 婚姻焦虑 育儿焦虑 二胎 三胎 托育 老人跌倒 养老院 看护 养老金 独居老人 高房价 租金上涨 违约金 天价中介费 社区封闭 强制消费 平台割韭菜 维权 举报 道歉 热搜 翻车 封杀 网暴 公开信 下架 社交恐惧 情绪价值</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%80%85%E7%AD%96%E5%88%92%E8%81%8A%E4%BA%9A%E7%91%9F%E4%BC%98%E5%8C%96" target="_blank" class="news-link">王者策划聊亚瑟优化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542767221202751015/" target="_blank" class="news-link">乌能够不依赖美国援助打击俄罗斯吗</a> [27] <font color='grey'>- 18时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
