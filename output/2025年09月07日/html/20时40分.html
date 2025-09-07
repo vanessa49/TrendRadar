@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2025-09-07 20:40:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">5</td>
+                <td class="percentage">7.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mSYYsEP2Cf" target="_blank" class="news-link">普京金正恩在天安门城楼交谈画面曝光</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546830227775701031/" target="_blank" class="news-link">全红婵哥哥回应白切鸡被指口感老</a> [23] <font color='grey'>- 20时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=12306%E5%9B%9E%E5%BA%94%E5%A4%A7%E9%87%8F%E7%A7%81%E7%94%9F%E9%AB%98%E9%93%81%E7%AB%99%E5%9B%B4%E5%A0%B5%E7%94%B7%E6%98%9F" target="_blank" class="news-link">12306回应大量私生高铁站围堵男星</a> [24] <font color='grey'>- 20时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E6%A0%A1%E5%9B%9E%E5%BA%94%E5%AE%BF%E8%88%8D%E5%BA%8A%E7%9B%B4%E6%8E%A5%E9%92%89%E5%9C%A8%E5%A2%99%E4%B8%8A" target="_blank" class="news-link">高校回应宿舍床直接钉在墙上</a> [25] <font color='grey'>- 20时40分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%92%8B%E4%B8%80%E4%BE%A8%E7%88%86%E6%96%99%E8%87%AA%E5%B7%B1%E7%88%B8%E7%88%B8%E6%80%95%E8%80%81%E5%A9%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26pos%3D29%26q%3D%25E8%2592%258B%25E4%25B8%2580%25E4%25BE%25A8%25E7%2588%2586%25E6%2596%2599%25E8%2587%25AA%25E5%25B7%25B1%25E7%2588%25B8%25E7%2588%25B8%25E6%2580%2595%25E8%2580%2581%25E5%25A9%2586%26flag%3D1%26c_type%3D31%26band_rank%3D29%26cate%3D5001%26dgr%3D0%26filter_type%3Drealtimehot%26realpos%3D29%26stream_entry_id%3D31%26display_time%3D1757247926%26pre_seqid%3D175724792636201141316115" target="_blank" class="news-link">蒋一侨爆料自己爸爸怕老婆</a> [29] <font color='grey'>- 20时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755006" target="_blank" class="news-link">下周重磅日程：中美8月CPI、中国社融数据、欧央行决议、苹果iPhone 17发布会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2137685" target="_blank" class="news-link">苹果秋季发布会前瞻 Pro系列影像能力大升级 可穿戴产品主打健康监测功能</a> [11] <font color='grey'>- 20时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947933737649141212" target="_blank" class="news-link">TI14 瑞士轮比赛全部结束，中国战队表现如何？你对接下来比赛有何期待？</a> [18] <font color='grey'>- 20时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%89%93%E7%BE%8E%E5%9B%BD%EF%BC%9F%E5%8D%8E%E7%9B%9B%E9%A1%BF%E8%8A%9D%E5%8A%A0%E5%93%A5%E9%83%BD%E6%80%92%E4%BA%86" target="_blank" class="news-link">美国打美国？华盛顿芝加哥都怒了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31556924" target="_blank" class="news-link">算命占卜搭上科技顺风车，“直播算命”是否违法？律师：可能涉嫌诈骗</a> [17] <font color='grey'>- 20时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
