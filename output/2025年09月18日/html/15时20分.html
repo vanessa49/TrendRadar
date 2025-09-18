@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2025-09-18 15:20:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">3</td>
+                <td class="percentage">7.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%89%AF%E6%A0%A1%E9%95%BF%E5%9B%9E%E5%BA%94%E5%A5%B3%E7%94%9F%E5%AE%BF%E8%88%8D%E5%88%86%E5%A8%A9%EF%BC%9A%E5%85%A8%E5%91%98%E5%8F%8D%E6%80%9D" target="_blank" class="news-link">副校长回应女生宿舍分娩：全员反思</a> [21] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%AC%AC%E4%B8%80%E6%89%B9%E7%9C%8B731%E8%A7%82%E4%BC%97%E5%8F%91%E5%A3%B0%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D26%26cate%3D5001%26flag%3D1%26q%3D%2523%25E7%25AC%25AC%25E4%25B8%2580%25E6%2589%25B9%25E7%259C%258B731%25E8%25A7%2582%25E4%25BC%2597%25E5%258F%2591%25E5%25A3%25B0%2523%26realpos%3D26%26pos%3D25%26display_time%3D1758179985%26pre_seqid%3D17581799851710234662737" target="_blank" class="news-link">第一批看731观众发声</a> [26] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%94%A1%E4%BE%9D%E6%9E%97%E5%9B%9E%E5%BA%94%E4%B8%BA%E4%BD%95%E9%95%BF%E6%9C%9F%E8%87%AA%E5%BE%8B%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26stream_entry_id%3D31%26band_rank%3D30%26cate%3D5001%26flag%3D1%26q%3D%2523%25E8%2594%25A1%25E4%25BE%259D%25E6%259E%2597%25E5%259B%259E%25E5%25BA%2594%25E4%25B8%25BA%25E4%25BD%2595%25E9%2595%25BF%25E6%259C%259F%25E8%2587%25AA%25E5%25BE%258B%2523%26realpos%3D30%26pos%3D29%26display_time%3D1758179985%26pre_seqid%3D17581799851710234662737" target="_blank" class="news-link">蔡依林回应为何长期自律</a> [30] <font color='grey'>- 15时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7551287932737293862/" target="_blank" class="news-link">博主谈《731》：拍出中国电影的良心</a> [16] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB%E4%B8%BA%E4%BD%95%E6%B5%B7%E5%A4%96%E4%B8%8D%E5%8F%AB%E5%BA%A7" target="_blank" class="news-link">国产动画为何海外不叫座</a> [21] <font color='grey'>- 15时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2148684" target="_blank" class="news-link">AI产业链掘金潮蔓延：OCS概念股爆发 这些“头号玩家”已率先进场</a> [13] <font color='grey'>- 15时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
