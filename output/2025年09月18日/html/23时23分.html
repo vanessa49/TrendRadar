@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-09-18 23:23:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">3</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2240788" target="_blank" class="news-link">晒晒我的新iPhone</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7551202563895623689/" target="_blank" class="news-link">iPhone 17系列二级市场行情公布</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E4%B8%93%E8%AE%BF%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1" target="_blank" class="news-link">UP主专访苹果高管</a> [14] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">2</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31628961" target="_blank" class="news-link">论文作者回应“收缩型城市名单”争议：仅作学术讨论，未想过引发关注</a> [13] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%BF%85%E8%83%9C%E5%AE%A2%E5%BA%97%E5%91%98%E5%9B%9E%E5%BA%94%E6%A9%99%E6%B1%81%E7%A1%AE%E4%B8%BA%E6%9E%9C%E7%B2%92%E6%A9%99%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D26%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26pos%3D25%26cate%3D5001%26dgr%3D0%26q%3D%2523%25E5%25BF%2585%25E8%2583%259C%25E5%25AE%25A2%25E5%25BA%2597%25E5%2591%2598%25E5%259B%259E%25E5%25BA%2594%25E6%25A9%2599%25E6%25B1%2581%25E7%25A1%25AE%25E4%25B8%25BA%25E6%259E%259C%25E7%25B2%2592%25E6%25A9%2599%2523%26stream_entry_id%3D31%26realpos%3D26%26lcate%3D5001%26display_time%3D1758208902%26pre_seqid%3D17582089025850234945289" target="_blank" class="news-link">必胜客店员回应橙汁确为果粒橙</a> [26] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7551407404953374227/" target="_blank" class="news-link">华为和DeepSeek手拉手迈出一大步</a> [13] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952088334047339800" target="_blank" class="news-link">英伟达将收购 50 亿美元的英特尔股份，收购背后有什么考量？将带来哪些影响？</a> [18] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%8A%97%E6%88%98%E5%8F%B2%E8%B5%B0%E5%90%91%E4%B8%96%E7%95%8C%E4%B8%BA%E4%BD%95%E9%A2%91%E9%A2%91%E5%8F%97%E9%98%BB" target="_blank" class="news-link">中国抗战史走向世界为何频频受阻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1951929123309056590" target="_blank" class="news-link">美国宾夕法尼亚州发生枪案，致 3 名警察死亡，具体情况如何？事件背后有哪些深层次矛盾？</a> [19] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
