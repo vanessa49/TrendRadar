@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 36</p><p>生成时间: 2025-10-02 13:20:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%A2%81%E9%9D%96%E5%B4%91%E6%97%A0%E7%BC%98%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E5%85%AB%E5%BC%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26band_rank%3D19%26c_type%3D31%26flag%3D1%26pos%3D19%26cate%3D5001%26realpos%3D19%26stream_entry_id%3D31%26q%3D%2523%25E6%25A2%2581%25E9%259D%2596%25E5%25B4%2591%25E6%2597%25A0%25E7%25BC%2598%25E4%25B8%25AD%25E5%259B%25BD%25E5%25A4%25A7%25E6%25BB%25A1%25E8%25B4%25AF%25E5%2585%25AB%25E5%25BC%25BA%2523%26dgr%3D0%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1759380887%26pre_seqid%3D175938088730302351664138" target="_blank" class="news-link">梁靖崑无缘中国大满贯八强</a> [19] <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%A0%B8%E8%81%9A%E5%8F%98%E8%A3%85%E7%BD%AE+%E5%8F%96%E5%BE%97%E5%85%B3%E9%94%AE%E7%AA%81%E7%A0%B4" target="_blank" class="news-link">中国核聚变装置 取得关键突破</a> [22] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E9%AB%98%E9%80%9F%E4%B8%8ASUV%E4%BD%8E%E9%80%9F%E4%B9%B1%E7%AA%9C" target="_blank" class="news-link">官方回应高速上SUV低速乱窜</a> [30] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756585" target="_blank" class="news-link">9月电车成绩单：零跑交付首破6万，小鹏与小米双双突破4万，理想、蔚来交付再创新高</a> [10] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556462881617743402/" target="_blank" class="news-link">马斯克5000亿美元身家都包括什么</a> [19] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556433873211493927/" target="_blank" class="news-link">抢到iPhone 17的年轻人学会用舌头点赞</a> [18] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345507&amp;amp;topic_name=su7%E4%B8%8D%E5%8F%97%E6%8E%A7%2C%E5%8C%96%E8%BA%AB%E6%B1%BD%E8%BD%A6%E4%BA%BA%E8%87%AA%E5%B7%B1%E5%BC%80%E8%B5%B0" target="_blank" class="news-link">su7不受控,化身汽车人自己开走</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556450879042244159/" target="_blank" class="news-link">美国真要开始强军了吗</a> [29] <font color='grey'>- 13时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
