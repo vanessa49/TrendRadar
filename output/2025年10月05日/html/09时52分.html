@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-10-05 09:52:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">8</td>
+                <td class="percentage">8.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31727835" target="_blank" class="news-link">湖南省博物馆回应门票预约难：提前一周预约，将打击倒卖行为</a> [6] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%89%E4%BA%9A%E5%A4%A7%E6%82%A6%E5%9F%8E%E8%87%B4%E6%AD%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E4%25B8%2589%25E4%25BA%259A%25E5%25A4%25A7%25E6%2582%25A6%25E5%259F%258E%25E8%2587%25B4%25E6%25AD%2589%2523%26dgr%3D0%26stream_entry_id%3D31%26pos%3D7%26flag%3D1%26band_rank%3D8%26filter_type%3Drealtimehot%26lcate%3D5001%26realpos%3D8%26cate%3D5001%26c_type%3D31%26display_time%3D1759628825%26pre_seqid%3D17596288258170236136739" target="_blank" class="news-link">三亚大悦城致歉</a> [8] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557130364001075219/" target="_blank" class="news-link">警方回应小伙扮演辱华角色被围攻</a> [12] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2162360" target="_blank" class="news-link">【早报】墨西哥近日连续对我发起多起反倾销调查，中方回应；机构：金价近期可能突破4000美元每盎司</a> [13] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2259220" target="_blank" class="news-link">石破茂回应高市早苗当选</a> [15] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557515045014343222/" target="_blank" class="news-link">餐厅用预制菜被骂冤吗</a> [26] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%8C%AB%E4%B8%BB%E4%BA%BA%E5%9B%9E%E5%BA%94%E5%85%A8%E8%BA%AB%E8%A2%AB%E6%8A%93%E4%BC%A420%E5%A4%9A%E5%A4%84%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E7%258C%25AB%25E4%25B8%25BB%25E4%25BA%25BA%25E5%259B%259E%25E5%25BA%2594%25E5%2585%25A8%25E8%25BA%25AB%25E8%25A2%25AB%25E6%258A%2593%25E4%25BC%25A420%25E5%25A4%259A%25E5%25A4%2584%2523%26dgr%3D0%26stream_entry_id%3D31%26pos%3D25%26flag%3D1%26band_rank%3D26%26filter_type%3Drealtimehot%26lcate%3D5001%26realpos%3D26%26cate%3D5001%26c_type%3D31%26display_time%3D1759628825%26pre_seqid%3D17596288258170236136739" target="_blank" class="news-link">猫主人回应全身被抓伤20多处</a> [26] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BA%E5%9B%9E%E5%BA%94%E7%94%B7%E7%AB%A5%E5%9D%A0%E8%90%BD%E6%A0%88%E9%81%93%E5%B7%B2%E5%8A%A0%E8%A3%85%E6%8A%A4%E6%A0%8F" target="_blank" class="news-link">景区回应男童坠落栈道已加装护栏</a> [29] <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E6%B8%B8%E5%AE%A2%E6%84%9F%E5%8F%B9%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%A5%BD%E5%B9%B8%E7%A6%8F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E9%25A9%25AC%25E6%259D%25A5%25E8%25A5%25BF%25E4%25BA%259A%25E6%25B8%25B8%25E5%25AE%25A2%25E6%2584%259F%25E5%258F%25B9%25E4%25B8%25AD%25E5%259B%25BD%25E4%25BA%25BA%25E5%25A5%25BD%25E5%25B9%25B8%25E7%25A6%258F%2523%26dgr%3D0%26stream_entry_id%3D31%26pos%3D3%26flag%3D1%26band_rank%3D4%26filter_type%3Drealtimehot%26lcate%3D5001%26realpos%3D4%26cate%3D5001%26c_type%3D31%26display_time%3D1759628825%26pre_seqid%3D17596288258170236136739" target="_blank" class="news-link">马来西亚游客感叹中国人好幸福</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557375751807025188/" target="_blank" class="news-link">WTT中国大满贯女单决赛你看好谁夺冠</a> [8] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31729273" target="_blank" class="news-link">人民日报钟才文：中国是全球包容性发展的典范</a> [15] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2259152" target="_blank" class="news-link">WTT中国大满贯冠军奖杯有多重</a> [22] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E5%8F%91%E5%B8%83%E9%BB%84%E5%B2%A9%E5%B2%9B%E6%9C%80%E6%96%B0%E7%85%A7%E7%89%87" target="_blank" class="news-link">中国海警发布黄岩岛最新照片</a> [26] <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nC8Duj9lVt" target="_blank" class="news-link">金正恩：若美国无视地区诸国安全忧虑，朝鲜将采取军事技术措施</a> [7] <font color='grey'>- 09时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756673" target="_blank" class="news-link">3个月16倍！“美国最火妖股”是一家“房地产翻新公司”</a> [9] <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">看病难 医保 挂号 陪诊 辞职 跳槽 过度治疗 白血病 罕见病 药价 报销 医保目录 理赔 拒赔 医疗纠纷 学区房 考研 高考 教育焦虑 培训机构 校外辅导 教师编制 教师辞职 辅导班 名校 内卷 就业难 35岁危机 试用期 实习生 裁员 优化 离职 裸辞 打工人 劳务派遣 外包 搬砖 脱发 失眠 抑郁 emo 精神内耗 陪伴 社恐 孤独 治愈 共鸣 心理咨询 心理辅导 婚姻焦虑 育儿焦虑 二胎 三胎 托育 老人跌倒 养老院 看护 养老金 独居老人 高房价 租金上涨 违约金 天价中介费 社区封闭 强制消费 平台割韭菜 维权 举报 道歉 热搜 翻车 封杀 网暴 公开信 下架 社交恐惧 情绪价值</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%83%AD%E5%AF%8C%E5%9F%8E%E5%9B%9E%E5%BA%94%E4%B8%89%E8%83%8E%E5%B7%B2%E5%87%BA%E7%94%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E9%2583%25AD%25E5%25AF%258C%25E5%259F%258E%25E5%259B%259E%25E5%25BA%2594%25E4%25B8%2589%25E8%2583%258E%25E5%25B7%25B2%25E5%2587%25BA%25E7%2594%259F%2523%26dgr%3D0%26stream_entry_id%3D31%26pos%3D13%26flag%3D2%26band_rank%3D14%26filter_type%3Drealtimehot%26lcate%3D5001%26realpos%3D14%26cate%3D5001%26c_type%3D31%26display_time%3D1759628825%26pre_seqid%3D17596288258170236136739" target="_blank" class="news-link">郭富城回应三胎已出生</a> [14] <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83%E6%93%8E%E5%A4%A9%E6%9F%B1%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E5%8A%9F%E5%A4%AB%E8%A7%86%E9%A2%91" target="_blank" class="news-link">马斯克发布擎天柱机器人学功夫视频</a> [10] <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756675" target="_blank" class="news-link">资深策略师：AI泡沫的破灭会在AI普及之前到来</a> [7]</div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557207203904831551/" target="_blank" class="news-link">胡同居民用大转盘解决汽车掉头难题</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
