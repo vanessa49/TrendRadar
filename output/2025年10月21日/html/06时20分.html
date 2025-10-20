@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 8</p><p>生成时间: 2025-10-21 06:20:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">看病难 医保 挂号 陪诊 辞职 跳槽 过度治疗 白血病 罕见病 药价 报销 医保目录 理赔 拒赔 医疗纠纷 学区房 考研 高考 教育焦虑 培训机构 校外辅导 教师编制 教师辞职 辅导班 名校 内卷 就业难 35岁危机 试用期 实习生 裁员 优化 离职 裸辞 打工人 劳务派遣 外包 搬砖 脱发 失眠 抑郁 emo 精神内耗 陪伴 社恐 孤独 治愈 共鸣 心理咨询 心理辅导 婚姻焦虑 育儿焦虑 二胎 三胎 托育 老人跌倒 养老院 看护 养老金 独居老人 高房价 租金上涨 违约金 天价中介费 社区封闭 强制消费 平台割韭菜 维权 举报 道歉 热搜 翻车 封杀 网暴 公开信 下架 社交恐惧 情绪价值</td>
+                <td class="count">1</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1888733148738725675" target="_blank" class="news-link">在游戏过程中，哪一刻让你与游戏中的角色产生了深刻的情感共鸣？</a> [13] <font color='grey'>- 06时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">发声 维权 被骂 被举报 下架 删帖 致歉 道歉信 回应 公开信 全网下架 实名举报 打脸 塌房 翻车 网暴 人设崩塌 封杀 爆料 实名制 取保候审 调查组 特写 曝光</td>
+                <td class="count">1</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%95%99%E8%82%B2%E5%B1%80%E5%9B%9E%E5%BA%94%E8%80%81%E5%B8%88%E4%B8%8A%E8%AF%BE%E7%8E%A9%E6%89%8B%E6%9C%BA%E9%BA%BB%E5%B0%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26pos%3D25%26q%3D%2523%25E6%2595%2599%25E8%2582%25B2%25E5%25B1%2580%25E5%259B%259E%25E5%25BA%2594%25E8%2580%2581%25E5%25B8%2588%25E4%25B8%258A%25E8%25AF%25BE%25E7%258E%25A9%25E6%2589%258B%25E6%259C%25BA%25E9%25BA%25BB%25E5%25B0%2586%2523%26stream_entry_id%3D31%26flag%3D0%26band_rank%3D24%26dgr%3D0%26filter_type%3Drealtimehot%26realpos%3D24%26c_type%3D31%26lcate%3D5001%26display_time%3D1760998381%26pre_seqid%3D17609983818290315480373" target="_blank" class="news-link">教育局回应老师上课玩手机麻将</a> [24] <font color='grey'>- 06时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562852640133185575/" target="_blank" class="news-link">“充气青蛙”涌上美国街头抗议</a> [14] <font color='grey'>- 06时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
