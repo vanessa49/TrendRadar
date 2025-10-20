@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 12</p><p>生成时间: 2025-10-21 07:20:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">16.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757466" target="_blank" class="news-link">美国股债汇齐涨，中概指数跑赢大盘，苹果涨近4%，黄金反弹创新高，比特币涨回11万美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2175088" target="_blank" class="news-link">美股收盘：三大指数均涨超1% 苹果大涨近4%</a> [6] <font color='grey'>- 07时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">看病难 医保 挂号 陪诊 辞职 跳槽 过度治疗 白血病 罕见病 药价 报销 医保目录 理赔 拒赔 医疗纠纷 学区房 考研 高考 教育焦虑 培训机构 校外辅导 教师编制 教师辞职 辅导班 名校 内卷 就业难 35岁危机 试用期 实习生 裁员 优化 离职 裸辞 打工人 劳务派遣 外包 搬砖 脱发 失眠 抑郁 emo 精神内耗 陪伴 社恐 孤独 治愈 共鸣 心理咨询 心理辅导 婚姻焦虑 育儿焦虑 二胎 三胎 托育 老人跌倒 养老院 看护 养老金 独居老人 高房价 租金上涨 违约金 天价中介费 社区封闭 强制消费 平台割韭菜 维权 举报 道歉 热搜 翻车 封杀 网暴 公开信 下架 社交恐惧 情绪价值</td>
+                <td class="count">1</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31808324" target="_blank" class="news-link">对话方励：一部关于反网暴的电影，不该止步于网暴</a> [19] <font color='grey'>- 07时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E5%BC%80%E6%BA%90%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">DeepSeek开源新模型DeepSeek-OCR</a> [25] <font color='grey'>- 07时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E4%B8%96%E7%BA%AA%E6%AC%A7%E6%B4%B2%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%9C%B0%E5%9B%BE" target="_blank" class="news-link">中世纪欧洲的中国地图</a> [28] <font color='grey'>- 07时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
